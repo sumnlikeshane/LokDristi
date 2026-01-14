@@ -1,0 +1,3195 @@
+{
+  "generated_at": "2026-01-14T23:53:08.027491",
+  "analysis_duration_seconds": 3.7,
+  "analysis_version": "2.0.0",
+  "executive_summary": {
+    "overview": {
+      "total_records_analyzed": 4938837,
+      "datasets_analyzed": 3,
+      "states_territories_covered": 68,
+      "regions_covered": 6,
+      "approximate_pincodes": 19742
+    },
+    "enrollment_highlights": [
+      {
+        "type": "leader",
+        "category": "enrollment",
+        "title": "Uttar Pradesh Leads in Aadhaar Enrollment",
+        "description": "Uttar Pradesh has the highest enrollment with 1,018,629 total enrollments, accounting for 18.74% of all enrollments.",
+        "severity": "positive",
+        "data": {
+          "state": "Uttar Pradesh",
+          "total": 1018629
+        }
+      },
+      {
+        "type": "attention",
+        "category": "enrollment",
+        "title": "WESTBENGAL Has Lowest Enrollment",
+        "description": "WESTBENGAL shows the lowest enrollment numbers with only 1 enrollments (0.0%). This region may benefit from increased enrollment drives.",
+        "severity": "warning",
+        "data": {
+          "state": "WESTBENGAL",
+          "total": 1
+        }
+      },
+      {
+        "type": "regional",
+        "category": "enrollment",
+        "title": "North Region Dominates Enrollment",
+        "description": "The North region accounts for 32.09% of total enrollments with 1,744,079 enrollments across 11 states.",
+        "severity": "info",
+        "data": {
+          "region": "North",
+          "total": 1744079
+        }
+      },
+      {
+        "type": "demographic",
+        "category": "enrollment",
+        "title": "Adult Population Dominates Enrollment",
+        "description": "Adults (18+) represent 3.1% of enrollments, while children 0-5 account for only 65.25%. Child enrollment initiatives may need strengthening.",
+        "severity": "info",
+        "data": {
+          "age_0_5_pct": 65.25,
+          "age_5_17_pct": 31.65,
+          "age_18_plus_pct": 3.1
+        }
+      }
+    ],
+    "biometric_highlights": [
+      {
+        "type": "leader",
+        "category": "biometric",
+        "title": "Uttar Pradesh Leads in Biometric Authentication",
+        "description": "Uttar Pradesh records the highest biometric activity with 9,577,735 authentications, representing 13.73% of all biometric transactions.",
+        "severity": "positive",
+        "data": {
+          "state": "Uttar Pradesh",
+          "total": 9577735
+        }
+      },
+      {
+        "type": "demographic",
+        "category": "biometric",
+        "title": "Adult Biometric Usage Significantly Higher",
+        "description": "Adults (17+) account for 50.94% of biometric authentications, 1.0x more than youth (5-17). This reflects higher adult engagement with Aadhaar-linked services.",
+        "severity": "info",
+        "data": {
+          "ratio": 1.04,
+          "adult_pct": 50.94
+        }
+      },
+      {
+        "type": "usage",
+        "category": "biometric",
+        "title": "Average 37.48 Authentications Per Record",
+        "description": "Each pincode-date combination averages 37.48 biometric authentications, indicating consistent usage across the country.",
+        "severity": "info",
+        "data": {
+          "average": 37.48
+        }
+      }
+    ],
+    "demographics_highlights": [
+      {
+        "type": "population",
+        "category": "demographics",
+        "title": "Uttar Pradesh Has Largest Demographic Footprint",
+        "description": "Uttar Pradesh accounts for 17.33% of demographic data with 8,542,328 records across 90 districts.",
+        "severity": "info",
+        "data": {
+          "state": "Uttar Pradesh",
+          "total": 8542328
+        }
+      },
+      {
+        "type": "youth",
+        "category": "demographics",
+        "title": "Ladakh Has Highest Youth Proportion",
+        "description": "Ladakh shows 23.98% youth (5-17) population, the highest among all states, indicating a young demographic profile.",
+        "severity": "positive",
+        "data": {
+          "state": "Ladakh",
+          "youth_pct": 23.98
+        }
+      },
+      {
+        "type": "regional",
+        "category": "demographics",
+        "title": "North Region Most Populous",
+        "description": "The North region contains 32.37% of demographic data spanning 10 states and 4,637 pincodes.",
+        "severity": "info",
+        "data": {
+          "region": "North",
+          "percentage": 32.37
+        }
+      },
+      {
+        "type": "coverage",
+        "category": "demographics",
+        "title": "19,742 Pincodes Covered",
+        "description": "Demographic data spans 19,742 unique pincodes across 65 states, demonstrating comprehensive geographic coverage.",
+        "severity": "positive",
+        "data": {
+          "pincodes": 19742,
+          "states": 65
+        }
+      }
+    ],
+    "cross_dataset_findings": [
+      {
+        "type": "coverage",
+        "title": "Comprehensive State Coverage",
+        "description": "52 states have complete data across all three datasets (enrollment, biometric, demographics). Total unique states covered: 68.",
+        "severity": "positive",
+        "data": {
+          "total_states": 68,
+          "common_states": 52,
+          "enrollment_only": [
+            "The Dadra And Nagar Haveli And Daman And Diu",
+            "Jammu And Kashmir",
+            "100000"
+          ],
+          "biometric_only": [
+            "west Bengal",
+            "odisha",
+            "Uttaranchal",
+            "Chhatisgarh",
+            "Tamilnadu"
+          ],
+          "demographics_only": [
+            "west Bengal",
+            "West Bengli",
+            "Chhatisgarh",
+            "BALANAGAR",
+            "100000"
+          ]
+        }
+      },
+      {
+        "type": "regional_leader",
+        "title": "North Region Most Active Overall",
+        "description": "The North region shows the highest combined activity across enrollment, biometric, and demographic data with an average of 31.2% share across datasets.",
+        "severity": "positive",
+        "data": {
+          "region": "North",
+          "average_percentage": 31.18
+        }
+      },
+      {
+        "type": "regional_attention",
+        "title": "Northeast Region Needs Focus",
+        "description": "The Northeast region has the lowest combined activity with only 4.4% average share. Infrastructure investment and enrollment drives may help improve coverage.",
+        "severity": "warning",
+        "data": {
+          "region": "Northeast",
+          "average_percentage": 4.45
+        }
+      },
+      {
+        "type": "consistent_performance",
+        "title": "Consistently High-Performing States",
+        "description": "Uttar Pradesh, Bihar, Madhya Pradesh appear in the top 5 across all datasets, indicating strong and consistent Aadhaar infrastructure adoption.",
+        "severity": "positive",
+        "data": {
+          "states": [
+            "Uttar Pradesh",
+            "Bihar",
+            "Madhya Pradesh",
+            "Maharashtra"
+          ]
+        }
+      },
+      {
+        "type": "data_volume",
+        "title": "Massive Data Scale Analyzed",
+        "description": "Analysis covers 124,493,984 total data points: 5,435,702 enrollment, 69,763,095 biometric, and 49,295,187 demographic records.",
+        "severity": "info",
+        "data": {
+          "enrollment_total": 5435702,
+          "biometric_total": 69763095,
+          "demographics_total": 49295187
+        }
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Service Delivery",
+        "priority": "medium",
+        "title": "Optimize Authentication Infrastructure",
+        "description": "With average 37.48 authentications per pincode-day, ensure sufficient server capacity and network reliability in high-traffic areas to maintain service quality.",
+        "impact": "Reduced authentication failures and improved citizen experience"
+      },
+      {
+        "category": "Data Quality",
+        "priority": "medium",
+        "title": "Regular Data Audits",
+        "description": "Implement quarterly data quality checks to identify and rectify inconsistencies across enrollment, biometric, and demographic datasets.",
+        "impact": "Improved data reliability for policy decisions"
+      }
+    ]
+  },
+  "enrollment": {
+    "total_records": 1006029,
+    "columns": [
+      "date",
+      "state",
+      "district",
+      "pincode",
+      "age_0_5",
+      "age_5_17",
+      "age_18_greater"
+    ],
+    "summary": {
+      "total_records": 1006029,
+      "unique_states": 55,
+      "unique_districts": 985,
+      "unique_pincodes": 19463,
+      "age_0_5_total": 3546965,
+      "age_5_17_total": 1720384,
+      "age_18_plus_total": 168353,
+      "grand_total": 5435702,
+      "age_0_5_percentage": 65.25,
+      "age_5_17_percentage": 31.65,
+      "age_18_plus_percentage": 3.1
+    },
+    "by_state": {
+      "100000": {
+        "total_enrollment": 218,
+        "age_0_5": 0,
+        "age_5_17": 1,
+        "age_18_plus": 217,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Andaman & Nicobar Islands": {
+        "total_enrollment": 114,
+        "age_0_5": 109,
+        "age_5_17": 5,
+        "age_18_plus": 0,
+        "unique_pincodes": 9,
+        "unique_districts": 3,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Andaman and Nicobar Islands": {
+        "total_enrollment": 397,
+        "age_0_5": 370,
+        "age_5_17": 27,
+        "age_18_plus": 0,
+        "unique_pincodes": 21,
+        "unique_districts": 3,
+        "region": "South",
+        "percentage_of_total": 0.01
+      },
+      "Andhra Pradesh": {
+        "total_enrollment": 127681,
+        "age_0_5": 112440,
+        "age_5_17": 13746,
+        "age_18_plus": 1495,
+        "unique_pincodes": 1786,
+        "unique_districts": 47,
+        "region": "South",
+        "percentage_of_total": 2.35
+      },
+      "Arunachal Pradesh": {
+        "total_enrollment": 4344,
+        "age_0_5": 1957,
+        "age_5_17": 2236,
+        "age_18_plus": 151,
+        "unique_pincodes": 52,
+        "unique_districts": 25,
+        "region": "Northeast",
+        "percentage_of_total": 0.08
+      },
+      "Assam": {
+        "total_enrollment": 230197,
+        "age_0_5": 141235,
+        "age_5_17": 66085,
+        "age_18_plus": 22877,
+        "unique_pincodes": 571,
+        "unique_districts": 38,
+        "region": "Northeast",
+        "percentage_of_total": 4.23
+      },
+      "Bihar": {
+        "total_enrollment": 609585,
+        "age_0_5": 262875,
+        "age_5_17": 334802,
+        "age_18_plus": 11908,
+        "unique_pincodes": 906,
+        "unique_districts": 48,
+        "region": "East",
+        "percentage_of_total": 11.21
+      },
+      "Chandigarh": {
+        "total_enrollment": 2723,
+        "age_0_5": 2476,
+        "age_5_17": 211,
+        "age_18_plus": 36,
+        "unique_pincodes": 24,
+        "unique_districts": 2,
+        "region": "North",
+        "percentage_of_total": 0.05
+      },
+      "Chhattisgarh": {
+        "total_enrollment": 103219,
+        "age_0_5": 82453,
+        "age_5_17": 18769,
+        "age_18_plus": 1997,
+        "unique_pincodes": 264,
+        "unique_districts": 40,
+        "region": "Central",
+        "percentage_of_total": 1.9
+      },
+      "Dadra & Nagar Haveli": {
+        "total_enrollment": 25,
+        "age_0_5": 22,
+        "age_5_17": 3,
+        "age_18_plus": 0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Dadra and Nagar Haveli": {
+        "total_enrollment": 744,
+        "age_0_5": 669,
+        "age_5_17": 71,
+        "age_18_plus": 4,
+        "unique_pincodes": 4,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.01
+      },
+      "Dadra and Nagar Haveli and Daman and Diu": {
+        "total_enrollment": 173,
+        "age_0_5": 131,
+        "age_5_17": 21,
+        "age_18_plus": 21,
+        "unique_pincodes": 9,
+        "unique_districts": 3,
+        "region": "West",
+        "percentage_of_total": 0.0
+      },
+      "Daman & Diu": {
+        "total_enrollment": 21,
+        "age_0_5": 20,
+        "age_5_17": 1,
+        "age_18_plus": 0,
+        "unique_pincodes": 5,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Daman and Diu": {
+        "total_enrollment": 120,
+        "age_0_5": 107,
+        "age_5_17": 13,
+        "age_18_plus": 0,
+        "unique_pincodes": 6,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Delhi": {
+        "total_enrollment": 94529,
+        "age_0_5": 69183,
+        "age_5_17": 22296,
+        "age_18_plus": 3050,
+        "unique_pincodes": 93,
+        "unique_districts": 14,
+        "region": "North",
+        "percentage_of_total": 1.74
+      },
+      "Goa": {
+        "total_enrollment": 2333,
+        "age_0_5": 1916,
+        "age_5_17": 254,
+        "age_18_plus": 163,
+        "unique_pincodes": 85,
+        "unique_districts": 3,
+        "region": "West",
+        "percentage_of_total": 0.04
+      },
+      "Gujarat": {
+        "total_enrollment": 280549,
+        "age_0_5": 193031,
+        "age_5_17": 71182,
+        "age_18_plus": 16336,
+        "unique_pincodes": 1020,
+        "unique_districts": 40,
+        "region": "West",
+        "percentage_of_total": 5.16
+      },
+      "Haryana": {
+        "total_enrollment": 98252,
+        "age_0_5": 88042,
+        "age_5_17": 9110,
+        "age_18_plus": 1100,
+        "unique_pincodes": 300,
+        "unique_districts": 26,
+        "region": "North",
+        "percentage_of_total": 1.81
+      },
+      "Himachal Pradesh": {
+        "total_enrollment": 17486,
+        "age_0_5": 16639,
+        "age_5_17": 661,
+        "age_18_plus": 186,
+        "unique_pincodes": 442,
+        "unique_districts": 14,
+        "region": "North",
+        "percentage_of_total": 0.32
+      },
+      "Jammu & Kashmir": {
+        "total_enrollment": 155,
+        "age_0_5": 133,
+        "age_5_17": 22,
+        "age_18_plus": 0,
+        "unique_pincodes": 58,
+        "unique_districts": 15,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Jammu And Kashmir": {
+        "total_enrollment": 950,
+        "age_0_5": 569,
+        "age_5_17": 344,
+        "age_18_plus": 37,
+        "unique_pincodes": 2,
+        "unique_districts": 2,
+        "region": "North",
+        "percentage_of_total": 0.02
+      },
+      "Jammu and Kashmir": {
+        "total_enrollment": 47991,
+        "age_0_5": 39837,
+        "age_5_17": 7656,
+        "age_18_plus": 498,
+        "unique_pincodes": 202,
+        "unique_districts": 24,
+        "region": "North",
+        "percentage_of_total": 0.88
+      },
+      "Jharkhand": {
+        "total_enrollment": 157539,
+        "age_0_5": 98551,
+        "age_5_17": 57539,
+        "age_18_plus": 1449,
+        "unique_pincodes": 359,
+        "unique_districts": 35,
+        "region": "East",
+        "percentage_of_total": 2.9
+      },
+      "Karnataka": {
+        "total_enrollment": 223235,
+        "age_0_5": 179262,
+        "age_5_17": 33863,
+        "age_18_plus": 10110,
+        "unique_pincodes": 1336,
+        "unique_districts": 56,
+        "region": "South",
+        "percentage_of_total": 4.11
+      },
+      "Kerala": {
+        "total_enrollment": 75002,
+        "age_0_5": 53737,
+        "age_5_17": 18590,
+        "age_18_plus": 2675,
+        "unique_pincodes": 1403,
+        "unique_districts": 15,
+        "region": "South",
+        "percentage_of_total": 1.38
+      },
+      "Ladakh": {
+        "total_enrollment": 617,
+        "age_0_5": 466,
+        "age_5_17": 133,
+        "age_18_plus": 18,
+        "unique_pincodes": 13,
+        "unique_districts": 2,
+        "region": "North",
+        "percentage_of_total": 0.01
+      },
+      "Lakshadweep": {
+        "total_enrollment": 203,
+        "age_0_5": 192,
+        "age_5_17": 10,
+        "age_18_plus": 1,
+        "unique_pincodes": 9,
+        "unique_districts": 1,
+        "region": "South",
+        "percentage_of_total": 0.0
+      },
+      "Madhya Pradesh": {
+        "total_enrollment": 493970,
+        "age_0_5": 367990,
+        "age_5_17": 116381,
+        "age_18_plus": 9599,
+        "unique_pincodes": 787,
+        "unique_districts": 61,
+        "region": "Central",
+        "percentage_of_total": 9.09
+      },
+      "Maharashtra": {
+        "total_enrollment": 369139,
+        "age_0_5": 278814,
+        "age_5_17": 82116,
+        "age_18_plus": 8209,
+        "unique_pincodes": 1580,
+        "unique_districts": 53,
+        "region": "West",
+        "percentage_of_total": 6.79
+      },
+      "Manipur": {
+        "total_enrollment": 13456,
+        "age_0_5": 5140,
+        "age_5_17": 8053,
+        "age_18_plus": 263,
+        "unique_pincodes": 54,
+        "unique_districts": 12,
+        "region": "Northeast",
+        "percentage_of_total": 0.25
+      },
+      "Meghalaya": {
+        "total_enrollment": 109771,
+        "age_0_5": 21179,
+        "age_5_17": 53305,
+        "age_18_plus": 35287,
+        "unique_pincodes": 67,
+        "unique_districts": 14,
+        "region": "Northeast",
+        "percentage_of_total": 2.02
+      },
+      "Mizoram": {
+        "total_enrollment": 5926,
+        "age_0_5": 4136,
+        "age_5_17": 1295,
+        "age_18_plus": 495,
+        "unique_pincodes": 47,
+        "unique_districts": 12,
+        "region": "Northeast",
+        "percentage_of_total": 0.11
+      },
+      "Nagaland": {
+        "total_enrollment": 15587,
+        "age_0_5": 4512,
+        "age_5_17": 9953,
+        "age_18_plus": 1122,
+        "unique_pincodes": 44,
+        "unique_districts": 17,
+        "region": "Northeast",
+        "percentage_of_total": 0.29
+      },
+      "ODISHA": {
+        "total_enrollment": 1,
+        "age_0_5": 1,
+        "age_5_17": 0,
+        "age_18_plus": 0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "Odisha": {
+        "total_enrollment": 118837,
+        "age_0_5": 95882,
+        "age_5_17": 22216,
+        "age_18_plus": 739,
+        "unique_pincodes": 908,
+        "unique_districts": 45,
+        "region": "East",
+        "percentage_of_total": 2.19
+      },
+      "Orissa": {
+        "total_enrollment": 4149,
+        "age_0_5": 3548,
+        "age_5_17": 601,
+        "age_18_plus": 0,
+        "unique_pincodes": 530,
+        "unique_districts": 35,
+        "region": "Unknown",
+        "percentage_of_total": 0.08
+      },
+      "Pondicherry": {
+        "total_enrollment": 1272,
+        "age_0_5": 1193,
+        "age_5_17": 79,
+        "age_18_plus": 0,
+        "unique_pincodes": 33,
+        "unique_districts": 3,
+        "region": "Unknown",
+        "percentage_of_total": 0.02
+      },
+      "Puducherry": {
+        "total_enrollment": 1745,
+        "age_0_5": 1585,
+        "age_5_17": 116,
+        "age_18_plus": 44,
+        "unique_pincodes": 35,
+        "unique_districts": 4,
+        "region": "South",
+        "percentage_of_total": 0.03
+      },
+      "Punjab": {
+        "total_enrollment": 76746,
+        "age_0_5": 61224,
+        "age_5_17": 12350,
+        "age_18_plus": 3172,
+        "unique_pincodes": 521,
+        "unique_districts": 28,
+        "region": "North",
+        "percentage_of_total": 1.41
+      },
+      "Rajasthan": {
+        "total_enrollment": 348458,
+        "age_0_5": 229780,
+        "age_5_17": 113123,
+        "age_18_plus": 5555,
+        "unique_pincodes": 978,
+        "unique_districts": 43,
+        "region": "North",
+        "percentage_of_total": 6.41
+      },
+      "Sikkim": {
+        "total_enrollment": 2207,
+        "age_0_5": 1054,
+        "age_5_17": 1047,
+        "age_18_plus": 106,
+        "unique_pincodes": 22,
+        "unique_districts": 10,
+        "region": "East",
+        "percentage_of_total": 0.04
+      },
+      "Tamil Nadu": {
+        "total_enrollment": 220789,
+        "age_0_5": 182313,
+        "age_5_17": 37227,
+        "age_18_plus": 1249,
+        "unique_pincodes": 2064,
+        "unique_districts": 46,
+        "region": "South",
+        "percentage_of_total": 4.06
+      },
+      "Telangana": {
+        "total_enrollment": 131574,
+        "age_0_5": 105918,
+        "age_5_17": 24505,
+        "age_18_plus": 1151,
+        "unique_pincodes": 647,
+        "unique_districts": 42,
+        "region": "South",
+        "percentage_of_total": 2.42
+      },
+      "The Dadra And Nagar Haveli And Daman And Diu": {
+        "total_enrollment": 716,
+        "age_0_5": 548,
+        "age_5_17": 141,
+        "age_18_plus": 27,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.01
+      },
+      "Tripura": {
+        "total_enrollment": 11285,
+        "age_0_5": 7376,
+        "age_5_17": 3654,
+        "age_18_plus": 255,
+        "unique_pincodes": 86,
+        "unique_districts": 9,
+        "region": "Northeast",
+        "percentage_of_total": 0.21
+      },
+      "Uttar Pradesh": {
+        "total_enrollment": 1018629,
+        "age_0_5": 521045,
+        "age_5_17": 479682,
+        "age_18_plus": 17902,
+        "unique_pincodes": 1737,
+        "unique_districts": 89,
+        "region": "North",
+        "percentage_of_total": 18.74
+      },
+      "Uttarakhand": {
+        "total_enrollment": 37698,
+        "age_0_5": 31880,
+        "age_5_17": 5479,
+        "age_18_plus": 339,
+        "unique_pincodes": 290,
+        "unique_districts": 15,
+        "region": "North",
+        "percentage_of_total": 0.69
+      },
+      "WEST BENGAL": {
+        "total_enrollment": 4,
+        "age_0_5": 3,
+        "age_5_17": 1,
+        "age_18_plus": 0,
+        "unique_pincodes": 2,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "WESTBENGAL": {
+        "total_enrollment": 1,
+        "age_0_5": 1,
+        "age_5_17": 0,
+        "age_18_plus": 0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West  Bengal": {
+        "total_enrollment": 15,
+        "age_0_5": 9,
+        "age_5_17": 6,
+        "age_18_plus": 0,
+        "unique_pincodes": 5,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West Bangal": {
+        "total_enrollment": 10,
+        "age_0_5": 7,
+        "age_5_17": 3,
+        "age_18_plus": 0,
+        "unique_pincodes": 5,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West Bengal": {
+        "total_enrollment": 375297,
+        "age_0_5": 275391,
+        "age_5_17": 91396,
+        "age_18_plus": 8510,
+        "unique_pincodes": 1336,
+        "unique_districts": 58,
+        "region": "East",
+        "percentage_of_total": 6.9
+      },
+      "West bengal": {
+        "total_enrollment": 7,
+        "age_0_5": 6,
+        "age_5_17": 1,
+        "age_18_plus": 0,
+        "unique_pincodes": 2,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "Westbengal": {
+        "total_enrollment": 6,
+        "age_0_5": 3,
+        "age_5_17": 3,
+        "age_18_plus": 0,
+        "unique_pincodes": 2,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "andhra pradesh": {
+        "total_enrollment": 5,
+        "age_0_5": 5,
+        "age_5_17": 0,
+        "age_18_plus": 0,
+        "unique_pincodes": 2,
+        "unique_districts": 2,
+        "region": "South",
+        "percentage_of_total": 0.0
+      }
+    },
+    "by_region": {
+      "Central": {
+        "total_enrollment": 597189,
+        "age_0_5": 450443,
+        "age_5_17": 135150,
+        "age_18_plus": 11596,
+        "states_count": 2,
+        "districts_count": 101,
+        "pincodes_count": 1051,
+        "percentage_of_total": 10.99
+      },
+      "East": {
+        "total_enrollment": 1263477,
+        "age_0_5": 733763,
+        "age_5_17": 507002,
+        "age_18_plus": 22712,
+        "states_count": 8,
+        "districts_count": 196,
+        "pincodes_count": 3529,
+        "percentage_of_total": 23.24
+      },
+      "North": {
+        "total_enrollment": 1744079,
+        "age_0_5": 1061141,
+        "age_5_17": 651045,
+        "age_18_plus": 31893,
+        "states_count": 11,
+        "districts_count": 253,
+        "pincodes_count": 4578,
+        "percentage_of_total": 32.09
+      },
+      "Northeast": {
+        "total_enrollment": 390566,
+        "age_0_5": 185535,
+        "age_5_17": 144581,
+        "age_18_plus": 60450,
+        "states_count": 7,
+        "districts_count": 126,
+        "pincodes_count": 916,
+        "percentage_of_total": 7.19
+      },
+      "South": {
+        "total_enrollment": 780631,
+        "age_0_5": 635822,
+        "age_5_17": 128084,
+        "age_18_plus": 16725,
+        "states_count": 9,
+        "districts_count": 206,
+        "pincodes_count": 6697,
+        "percentage_of_total": 14.36
+      },
+      "Unknown": {
+        "total_enrollment": 7566,
+        "age_0_5": 6369,
+        "age_5_17": 949,
+        "age_18_plus": 248,
+        "states_count": 14,
+        "districts_count": 65,
+        "pincodes_count": 654,
+        "percentage_of_total": 0.14
+      },
+      "West": {
+        "total_enrollment": 652194,
+        "age_0_5": 473892,
+        "age_5_17": 153573,
+        "age_18_plus": 24729,
+        "states_count": 4,
+        "districts_count": 99,
+        "pincodes_count": 2690,
+        "percentage_of_total": 12.0
+      }
+    },
+    "by_district": {},
+    "age_analysis": {
+      "children_0_5": {
+        "total": 3546965,
+        "percentage": 65.25,
+        "average_per_pincode": 3.53,
+        "median_per_pincode": 2.0,
+        "max_in_single_record": 2688,
+        "min_in_single_record": 0
+      },
+      "children_5_17": {
+        "total": 1720384,
+        "percentage": 31.65,
+        "average_per_pincode": 1.71,
+        "median_per_pincode": 0.0,
+        "max_in_single_record": 1812,
+        "min_in_single_record": 0
+      },
+      "adults_18_plus": {
+        "total": 168353,
+        "percentage": 3.1,
+        "average_per_pincode": 0.17,
+        "median_per_pincode": 0.0,
+        "max_in_single_record": 855,
+        "min_in_single_record": 0
+      }
+    },
+    "top_performers": {
+      "states": [
+        {
+          "name": "Uttar Pradesh",
+          "total": 1018629,
+          "percentage": 18.74
+        },
+        {
+          "name": "Bihar",
+          "total": 609585,
+          "percentage": 11.21
+        },
+        {
+          "name": "Madhya Pradesh",
+          "total": 493970,
+          "percentage": 9.09
+        },
+        {
+          "name": "West Bengal",
+          "total": 375297,
+          "percentage": 6.9
+        },
+        {
+          "name": "Maharashtra",
+          "total": 369139,
+          "percentage": 6.79
+        },
+        {
+          "name": "Rajasthan",
+          "total": 348458,
+          "percentage": 6.41
+        },
+        {
+          "name": "Gujarat",
+          "total": 280549,
+          "percentage": 5.16
+        },
+        {
+          "name": "Assam",
+          "total": 230197,
+          "percentage": 4.23
+        },
+        {
+          "name": "Karnataka",
+          "total": 223235,
+          "percentage": 4.11
+        },
+        {
+          "name": "Tamil Nadu",
+          "total": 220789,
+          "percentage": 4.06
+        }
+      ],
+      "districts": [
+        {
+          "state": "Maharashtra",
+          "district": "Thane",
+          "total": 43688
+        },
+        {
+          "state": "Bihar",
+          "district": "Sitamarhi",
+          "total": 42232
+        },
+        {
+          "state": "Uttar Pradesh",
+          "district": "Bahraich",
+          "total": 39338
+        },
+        {
+          "state": "West Bengal",
+          "district": "Murshidabad",
+          "total": 35911
+        },
+        {
+          "state": "West Bengal",
+          "district": "South 24 Parganas",
+          "total": 33540
+        },
+        {
+          "state": "Maharashtra",
+          "district": "Pune",
+          "total": 31763
+        },
+        {
+          "state": "Rajasthan",
+          "district": "Jaipur",
+          "total": 31146
+        },
+        {
+          "state": "Karnataka",
+          "district": "Bengaluru",
+          "total": 30980
+        },
+        {
+          "state": "Uttar Pradesh",
+          "district": "Sitapur",
+          "total": 30854
+        },
+        {
+          "state": "Bihar",
+          "district": "West Champaran",
+          "total": 30438
+        },
+        {
+          "state": "Uttar Pradesh",
+          "district": "Agra",
+          "total": 29910
+        },
+        {
+          "state": "Bihar",
+          "district": "East Champaran",
+          "total": 29323
+        },
+        {
+          "state": "Bihar",
+          "district": "Muzaffarpur",
+          "total": 28855
+        },
+        {
+          "state": "Meghalaya",
+          "district": "East Khasi Hills",
+          "total": 28812
+        },
+        {
+          "state": "West Bengal",
+          "district": "North 24 Parganas",
+          "total": 28606
+        },
+        {
+          "state": "Uttar Pradesh",
+          "district": "Bareilly",
+          "total": 27811
+        },
+        {
+          "state": "Bihar",
+          "district": "Gaya",
+          "total": 27401
+        },
+        {
+          "state": "West Bengal",
+          "district": "Uttar Dinajpur",
+          "total": 26892
+        },
+        {
+          "state": "Uttar Pradesh",
+          "district": "Aligarh",
+          "total": 26192
+        },
+        {
+          "state": "Telangana",
+          "district": "Hyderabad",
+          "total": 25990
+        }
+      ]
+    },
+    "needs_attention": {
+      "states": [
+        {
+          "name": "Dadra & Nagar Haveli",
+          "total": 25,
+          "percentage": 0.0
+        },
+        {
+          "name": "Daman & Diu",
+          "total": 21,
+          "percentage": 0.0
+        },
+        {
+          "name": "West  Bengal",
+          "total": 15,
+          "percentage": 0.0
+        },
+        {
+          "name": "West Bangal",
+          "total": 10,
+          "percentage": 0.0
+        },
+        {
+          "name": "West bengal",
+          "total": 7,
+          "percentage": 0.0
+        },
+        {
+          "name": "Westbengal",
+          "total": 6,
+          "percentage": 0.0
+        },
+        {
+          "name": "andhra pradesh",
+          "total": 5,
+          "percentage": 0.0
+        },
+        {
+          "name": "WEST BENGAL",
+          "total": 4,
+          "percentage": 0.0
+        },
+        {
+          "name": "ODISHA",
+          "total": 1,
+          "percentage": 0.0
+        },
+        {
+          "name": "WESTBENGAL",
+          "total": 1,
+          "percentage": 0.0
+        }
+      ]
+    },
+    "key_insights": [
+      {
+        "type": "leader",
+        "category": "enrollment",
+        "title": "Uttar Pradesh Leads in Aadhaar Enrollment",
+        "description": "Uttar Pradesh has the highest enrollment with 1,018,629 total enrollments, accounting for 18.74% of all enrollments.",
+        "severity": "positive",
+        "data": {
+          "state": "Uttar Pradesh",
+          "total": 1018629
+        }
+      },
+      {
+        "type": "attention",
+        "category": "enrollment",
+        "title": "WESTBENGAL Has Lowest Enrollment",
+        "description": "WESTBENGAL shows the lowest enrollment numbers with only 1 enrollments (0.0%). This region may benefit from increased enrollment drives.",
+        "severity": "warning",
+        "data": {
+          "state": "WESTBENGAL",
+          "total": 1
+        }
+      },
+      {
+        "type": "regional",
+        "category": "enrollment",
+        "title": "North Region Dominates Enrollment",
+        "description": "The North region accounts for 32.09% of total enrollments with 1,744,079 enrollments across 11 states.",
+        "severity": "info",
+        "data": {
+          "region": "North",
+          "total": 1744079
+        }
+      },
+      {
+        "type": "demographic",
+        "category": "enrollment",
+        "title": "Adult Population Dominates Enrollment",
+        "description": "Adults (18+) represent 3.1% of enrollments, while children 0-5 account for only 65.25%. Child enrollment initiatives may need strengthening.",
+        "severity": "info",
+        "data": {
+          "age_0_5_pct": 65.25,
+          "age_5_17_pct": 31.65,
+          "age_18_plus_pct": 3.1
+        }
+      }
+    ]
+  },
+  "biometric": {
+    "total_records": 1861108,
+    "columns": [
+      "date",
+      "state",
+      "district",
+      "pincode",
+      "bio_age_5_17",
+      "bio_age_17_"
+    ],
+    "summary": {
+      "total_records": 1861108,
+      "unique_states": 57,
+      "unique_districts": 974,
+      "unique_pincodes": 19707,
+      "bio_5_17_total": 34226855,
+      "bio_17_plus_total": 35536240,
+      "grand_total": 69763095,
+      "bio_5_17_percentage": 49.06,
+      "bio_17_plus_percentage": 50.94,
+      "avg_authentications_per_record": 37.48
+    },
+    "by_state": {
+      "Andaman & Nicobar Islands": {
+        "total_authentications": 2384,
+        "bio_5_17": 405,
+        "bio_17_plus": 1979,
+        "avg_bio_5_17_per_pincode": 0.74,
+        "avg_bio_17_plus_per_pincode": 3.6,
+        "unique_pincodes": 13,
+        "unique_districts": 3,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Andaman and Nicobar Islands": {
+        "total_authentications": 18314,
+        "bio_5_17": 11401,
+        "bio_17_plus": 6913,
+        "avg_bio_5_17_per_pincode": 8.78,
+        "avg_bio_17_plus_per_pincode": 5.33,
+        "unique_pincodes": 22,
+        "unique_districts": 3,
+        "region": "South",
+        "percentage_of_total": 0.03
+      },
+      "Andhra Pradesh": {
+        "total_authentications": 3714592,
+        "bio_5_17": 2241448,
+        "bio_17_plus": 1473144,
+        "avg_bio_5_17_per_pincode": 13.03,
+        "avg_bio_17_plus_per_pincode": 8.56,
+        "unique_pincodes": 1847,
+        "unique_districts": 45,
+        "region": "South",
+        "percentage_of_total": 5.32
+      },
+      "Arunachal Pradesh": {
+        "total_authentications": 72394,
+        "bio_5_17": 42894,
+        "bio_17_plus": 29500,
+        "avg_bio_5_17_per_pincode": 10.11,
+        "avg_bio_17_plus_per_pincode": 6.95,
+        "unique_pincodes": 54,
+        "unique_districts": 25,
+        "region": "Northeast",
+        "percentage_of_total": 0.1
+      },
+      "Assam": {
+        "total_authentications": 982722,
+        "bio_5_17": 596624,
+        "bio_17_plus": 386098,
+        "avg_bio_5_17_per_pincode": 12.52,
+        "avg_bio_17_plus_per_pincode": 8.1,
+        "unique_pincodes": 574,
+        "unique_districts": 37,
+        "region": "Northeast",
+        "percentage_of_total": 1.41
+      },
+      "Bihar": {
+        "total_authentications": 4897587,
+        "bio_5_17": 2208141,
+        "bio_17_plus": 2689446,
+        "avg_bio_5_17_per_pincode": 26.48,
+        "avg_bio_17_plus_per_pincode": 32.25,
+        "unique_pincodes": 917,
+        "unique_districts": 47,
+        "region": "East",
+        "percentage_of_total": 7.02
+      },
+      "Chandigarh": {
+        "total_authentications": 74482,
+        "bio_5_17": 49171,
+        "bio_17_plus": 25311,
+        "avg_bio_5_17_per_pincode": 29.69,
+        "avg_bio_17_plus_per_pincode": 15.28,
+        "unique_pincodes": 27,
+        "unique_districts": 3,
+        "region": "North",
+        "percentage_of_total": 0.11
+      },
+      "Chhatisgarh": {
+        "total_authentications": 5,
+        "bio_5_17": 2,
+        "bio_17_plus": 3,
+        "avg_bio_5_17_per_pincode": 0.4,
+        "avg_bio_17_plus_per_pincode": 0.6,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Chhattisgarh": {
+        "total_authentications": 2648729,
+        "bio_5_17": 884553,
+        "bio_17_plus": 1764176,
+        "avg_bio_5_17_per_pincode": 27.65,
+        "avg_bio_17_plus_per_pincode": 55.14,
+        "unique_pincodes": 269,
+        "unique_districts": 40,
+        "region": "Central",
+        "percentage_of_total": 3.8
+      },
+      "Dadra & Nagar Haveli": {
+        "total_authentications": 553,
+        "bio_5_17": 72,
+        "bio_17_plus": 481,
+        "avg_bio_5_17_per_pincode": 0.72,
+        "avg_bio_17_plus_per_pincode": 4.81,
+        "unique_pincodes": 4,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Dadra and Nagar Haveli": {
+        "total_authentications": 27235,
+        "bio_5_17": 10791,
+        "bio_17_plus": 16444,
+        "avg_bio_5_17_per_pincode": 33.2,
+        "avg_bio_17_plus_per_pincode": 50.6,
+        "unique_pincodes": 4,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.04
+      },
+      "Dadra and Nagar Haveli and Daman and Diu": {
+        "total_authentications": 2532,
+        "bio_5_17": 753,
+        "bio_17_plus": 1779,
+        "avg_bio_5_17_per_pincode": 3.36,
+        "avg_bio_17_plus_per_pincode": 7.94,
+        "unique_pincodes": 10,
+        "unique_districts": 3,
+        "region": "West",
+        "percentage_of_total": 0.0
+      },
+      "Daman & Diu": {
+        "total_authentications": 2185,
+        "bio_5_17": 531,
+        "bio_17_plus": 1654,
+        "avg_bio_5_17_per_pincode": 2.01,
+        "avg_bio_17_plus_per_pincode": 6.27,
+        "unique_pincodes": 5,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Daman and Diu": {
+        "total_authentications": 6763,
+        "bio_5_17": 4215,
+        "bio_17_plus": 2548,
+        "avg_bio_5_17_per_pincode": 10.23,
+        "avg_bio_17_plus_per_pincode": 6.18,
+        "unique_pincodes": 6,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.01
+      },
+      "Delhi": {
+        "total_authentications": 1304362,
+        "bio_5_17": 556237,
+        "bio_17_plus": 748125,
+        "avg_bio_5_17_per_pincode": 60.08,
+        "avg_bio_17_plus_per_pincode": 80.8,
+        "unique_pincodes": 94,
+        "unique_districts": 13,
+        "region": "North",
+        "percentage_of_total": 1.87
+      },
+      "Goa": {
+        "total_authentications": 68397,
+        "bio_5_17": 34244,
+        "bio_17_plus": 34153,
+        "avg_bio_5_17_per_pincode": 6.31,
+        "avg_bio_17_plus_per_pincode": 6.29,
+        "unique_pincodes": 89,
+        "unique_districts": 4,
+        "region": "West",
+        "percentage_of_total": 0.1
+      },
+      "Gujarat": {
+        "total_authentications": 3196514,
+        "bio_5_17": 1460655,
+        "bio_17_plus": 1735859,
+        "avg_bio_5_17_per_pincode": 16.31,
+        "avg_bio_17_plus_per_pincode": 19.39,
+        "unique_pincodes": 1026,
+        "unique_districts": 39,
+        "region": "West",
+        "percentage_of_total": 4.58
+      },
+      "Haryana": {
+        "total_authentications": 1635454,
+        "bio_5_17": 693667,
+        "bio_17_plus": 941787,
+        "avg_bio_5_17_per_pincode": 26.25,
+        "avg_bio_17_plus_per_pincode": 35.63,
+        "unique_pincodes": 305,
+        "unique_districts": 24,
+        "region": "North",
+        "percentage_of_total": 2.34
+      },
+      "Himachal Pradesh": {
+        "total_authentications": 396234,
+        "bio_5_17": 191566,
+        "bio_17_plus": 204668,
+        "avg_bio_5_17_per_pincode": 6.3,
+        "avg_bio_17_plus_per_pincode": 6.74,
+        "unique_pincodes": 448,
+        "unique_districts": 14,
+        "region": "North",
+        "percentage_of_total": 0.57
+      },
+      "Jammu & Kashmir": {
+        "total_authentications": 429,
+        "bio_5_17": 114,
+        "bio_17_plus": 315,
+        "avg_bio_5_17_per_pincode": 0.31,
+        "avg_bio_17_plus_per_pincode": 0.85,
+        "unique_pincodes": 95,
+        "unique_districts": 15,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Jammu and Kashmir": {
+        "total_authentications": 791218,
+        "bio_5_17": 420235,
+        "bio_17_plus": 370983,
+        "avg_bio_5_17_per_pincode": 21.45,
+        "avg_bio_17_plus_per_pincode": 18.94,
+        "unique_pincodes": 206,
+        "unique_districts": 26,
+        "region": "North",
+        "percentage_of_total": 1.13
+      },
+      "Jharkhand": {
+        "total_authentications": 2026297,
+        "bio_5_17": 876613,
+        "bio_17_plus": 1149684,
+        "avg_bio_5_17_per_pincode": 23.93,
+        "avg_bio_17_plus_per_pincode": 31.39,
+        "unique_pincodes": 364,
+        "unique_districts": 34,
+        "region": "East",
+        "percentage_of_total": 2.9
+      },
+      "Karnataka": {
+        "total_authentications": 2635954,
+        "bio_5_17": 1244999,
+        "bio_17_plus": 1390955,
+        "avg_bio_5_17_per_pincode": 8.82,
+        "avg_bio_17_plus_per_pincode": 9.85,
+        "unique_pincodes": 1353,
+        "unique_districts": 54,
+        "region": "South",
+        "percentage_of_total": 3.78
+      },
+      "Kerala": {
+        "total_authentications": 1609730,
+        "bio_5_17": 647939,
+        "bio_17_plus": 961791,
+        "avg_bio_5_17_per_pincode": 6.58,
+        "avg_bio_17_plus_per_pincode": 9.76,
+        "unique_pincodes": 1418,
+        "unique_districts": 15,
+        "region": "South",
+        "percentage_of_total": 2.31
+      },
+      "Ladakh": {
+        "total_authentications": 5763,
+        "bio_5_17": 2809,
+        "bio_17_plus": 2954,
+        "avg_bio_5_17_per_pincode": 3.83,
+        "avg_bio_17_plus_per_pincode": 4.03,
+        "unique_pincodes": 14,
+        "unique_districts": 2,
+        "region": "North",
+        "percentage_of_total": 0.01
+      },
+      "Lakshadweep": {
+        "total_authentications": 4820,
+        "bio_5_17": 2226,
+        "bio_17_plus": 2594,
+        "avg_bio_5_17_per_pincode": 4.05,
+        "avg_bio_17_plus_per_pincode": 4.72,
+        "unique_pincodes": 9,
+        "unique_districts": 1,
+        "region": "South",
+        "percentage_of_total": 0.01
+      },
+      "Madhya Pradesh": {
+        "total_authentications": 5923771,
+        "bio_5_17": 3200117,
+        "bio_17_plus": 2723654,
+        "avg_bio_5_17_per_pincode": 45.66,
+        "avg_bio_17_plus_per_pincode": 38.86,
+        "unique_pincodes": 797,
+        "unique_districts": 60,
+        "region": "Central",
+        "percentage_of_total": 8.49
+      },
+      "Maharashtra": {
+        "total_authentications": 9226139,
+        "bio_5_17": 3512712,
+        "bio_17_plus": 5713427,
+        "avg_bio_5_17_per_pincode": 23.25,
+        "avg_bio_17_plus_per_pincode": 37.81,
+        "unique_pincodes": 1607,
+        "unique_districts": 52,
+        "region": "West",
+        "percentage_of_total": 13.22
+      },
+      "Manipur": {
+        "total_authentications": 282587,
+        "bio_5_17": 166465,
+        "bio_17_plus": 116122,
+        "avg_bio_5_17_per_pincode": 25.4,
+        "avg_bio_17_plus_per_pincode": 17.72,
+        "unique_pincodes": 55,
+        "unique_districts": 12,
+        "region": "Northeast",
+        "percentage_of_total": 0.41
+      },
+      "Meghalaya": {
+        "total_authentications": 87626,
+        "bio_5_17": 36531,
+        "bio_17_plus": 51095,
+        "avg_bio_5_17_per_pincode": 8.74,
+        "avg_bio_17_plus_per_pincode": 12.23,
+        "unique_pincodes": 66,
+        "unique_districts": 13,
+        "region": "Northeast",
+        "percentage_of_total": 0.13
+      },
+      "Mizoram": {
+        "total_authentications": 120329,
+        "bio_5_17": 85531,
+        "bio_17_plus": 34798,
+        "avg_bio_5_17_per_pincode": 25.54,
+        "avg_bio_17_plus_per_pincode": 10.39,
+        "unique_pincodes": 49,
+        "unique_districts": 12,
+        "region": "Northeast",
+        "percentage_of_total": 0.17
+      },
+      "Nagaland": {
+        "total_authentications": 109593,
+        "bio_5_17": 32561,
+        "bio_17_plus": 77032,
+        "avg_bio_5_17_per_pincode": 8.51,
+        "avg_bio_17_plus_per_pincode": 20.13,
+        "unique_pincodes": 44,
+        "unique_districts": 17,
+        "region": "Northeast",
+        "percentage_of_total": 0.16
+      },
+      "ODISHA": {
+        "total_authentications": 34,
+        "bio_5_17": 9,
+        "bio_17_plus": 25,
+        "avg_bio_5_17_per_pincode": 0.31,
+        "avg_bio_17_plus_per_pincode": 0.86,
+        "unique_pincodes": 2,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "Odisha": {
+        "total_authentications": 2402827,
+        "bio_5_17": 1198584,
+        "bio_17_plus": 1204243,
+        "avg_bio_5_17_per_pincode": 13.86,
+        "avg_bio_17_plus_per_pincode": 13.93,
+        "unique_pincodes": 940,
+        "unique_districts": 46,
+        "region": "East",
+        "percentage_of_total": 3.44
+      },
+      "Orissa": {
+        "total_authentications": 62083,
+        "bio_5_17": 12796,
+        "bio_17_plus": 49287,
+        "avg_bio_5_17_per_pincode": 0.97,
+        "avg_bio_17_plus_per_pincode": 3.75,
+        "unique_pincodes": 694,
+        "unique_districts": 37,
+        "region": "Unknown",
+        "percentage_of_total": 0.09
+      },
+      "Pondicherry": {
+        "total_authentications": 27587,
+        "bio_5_17": 5218,
+        "bio_17_plus": 22369,
+        "avg_bio_5_17_per_pincode": 2.26,
+        "avg_bio_17_plus_per_pincode": 9.68,
+        "unique_pincodes": 35,
+        "unique_districts": 5,
+        "region": "Unknown",
+        "percentage_of_total": 0.04
+      },
+      "Puducherry": {
+        "total_authentications": 42321,
+        "bio_5_17": 21828,
+        "bio_17_plus": 20493,
+        "avg_bio_5_17_per_pincode": 8.37,
+        "avg_bio_17_plus_per_pincode": 7.86,
+        "unique_pincodes": 36,
+        "unique_districts": 4,
+        "region": "South",
+        "percentage_of_total": 0.06
+      },
+      "Punjab": {
+        "total_authentications": 1739671,
+        "bio_5_17": 700157,
+        "bio_17_plus": 1039514,
+        "avg_bio_5_17_per_pincode": 14.55,
+        "avg_bio_17_plus_per_pincode": 21.61,
+        "unique_pincodes": 526,
+        "unique_districts": 27,
+        "region": "North",
+        "percentage_of_total": 2.49
+      },
+      "Rajasthan": {
+        "total_authentications": 3994955,
+        "bio_5_17": 2066747,
+        "bio_17_plus": 1928208,
+        "avg_bio_5_17_per_pincode": 25.92,
+        "avg_bio_17_plus_per_pincode": 24.19,
+        "unique_pincodes": 986,
+        "unique_districts": 46,
+        "region": "North",
+        "percentage_of_total": 5.73
+      },
+      "Sikkim": {
+        "total_authentications": 22820,
+        "bio_5_17": 11932,
+        "bio_17_plus": 10888,
+        "avg_bio_5_17_per_pincode": 4.97,
+        "avg_bio_17_plus_per_pincode": 4.54,
+        "unique_pincodes": 22,
+        "unique_districts": 9,
+        "region": "East",
+        "percentage_of_total": 0.03
+      },
+      "Tamil Nadu": {
+        "total_authentications": 4698117,
+        "bio_5_17": 2227252,
+        "bio_17_plus": 2470865,
+        "avg_bio_5_17_per_pincode": 12.07,
+        "avg_bio_17_plus_per_pincode": 13.39,
+        "unique_pincodes": 2088,
+        "unique_districts": 45,
+        "region": "South",
+        "percentage_of_total": 6.73
+      },
+      "Tamilnadu": {
+        "total_authentications": 1,
+        "bio_5_17": 1,
+        "bio_17_plus": 0,
+        "avg_bio_5_17_per_pincode": 1.0,
+        "avg_bio_17_plus_per_pincode": 0.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Telangana": {
+        "total_authentications": 1737654,
+        "bio_5_17": 946497,
+        "bio_17_plus": 791157,
+        "avg_bio_5_17_per_pincode": 11.46,
+        "avg_bio_17_plus_per_pincode": 9.58,
+        "unique_pincodes": 653,
+        "unique_districts": 40,
+        "region": "South",
+        "percentage_of_total": 2.49
+      },
+      "Tripura": {
+        "total_authentications": 292155,
+        "bio_5_17": 147535,
+        "bio_17_plus": 144620,
+        "avg_bio_5_17_per_pincode": 17.37,
+        "avg_bio_17_plus_per_pincode": 17.03,
+        "unique_pincodes": 86,
+        "unique_districts": 9,
+        "region": "Northeast",
+        "percentage_of_total": 0.42
+      },
+      "Uttar Pradesh": {
+        "total_authentications": 9577735,
+        "bio_5_17": 6207105,
+        "bio_17_plus": 3370630,
+        "avg_bio_5_17_per_pincode": 39.98,
+        "avg_bio_17_plus_per_pincode": 21.71,
+        "unique_pincodes": 1753,
+        "unique_districts": 90,
+        "region": "North",
+        "percentage_of_total": 13.73
+      },
+      "Uttarakhand": {
+        "total_authentications": 764763,
+        "bio_5_17": 424441,
+        "bio_17_plus": 340322,
+        "avg_bio_5_17_per_pincode": 18.78,
+        "avg_bio_17_plus_per_pincode": 15.06,
+        "unique_pincodes": 297,
+        "unique_districts": 15,
+        "region": "North",
+        "percentage_of_total": 1.1
+      },
+      "Uttaranchal": {
+        "total_authentications": 2,
+        "bio_5_17": 0,
+        "bio_17_plus": 2,
+        "avg_bio_5_17_per_pincode": 0.0,
+        "avg_bio_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 2,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "WEST BENGAL": {
+        "total_authentications": 37,
+        "bio_5_17": 8,
+        "bio_17_plus": 29,
+        "avg_bio_5_17_per_pincode": 0.24,
+        "avg_bio_17_plus_per_pincode": 0.85,
+        "unique_pincodes": 6,
+        "unique_districts": 3,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "WESTBENGAL": {
+        "total_authentications": 12,
+        "bio_5_17": 5,
+        "bio_17_plus": 7,
+        "avg_bio_5_17_per_pincode": 0.45,
+        "avg_bio_17_plus_per_pincode": 0.64,
+        "unique_pincodes": 3,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West  Bengal": {
+        "total_authentications": 28,
+        "bio_5_17": 6,
+        "bio_17_plus": 22,
+        "avg_bio_5_17_per_pincode": 0.22,
+        "avg_bio_17_plus_per_pincode": 0.81,
+        "unique_pincodes": 4,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West Bangal": {
+        "total_authentications": 54,
+        "bio_5_17": 15,
+        "bio_17_plus": 39,
+        "avg_bio_5_17_per_pincode": 0.29,
+        "avg_bio_17_plus_per_pincode": 0.76,
+        "unique_pincodes": 9,
+        "unique_districts": 3,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West Bengal": {
+        "total_authentications": 2524448,
+        "bio_5_17": 1040470,
+        "bio_17_plus": 1483978,
+        "avg_bio_5_17_per_pincode": 7.96,
+        "avg_bio_17_plus_per_pincode": 11.35,
+        "unique_pincodes": 1354,
+        "unique_districts": 58,
+        "region": "East",
+        "percentage_of_total": 3.62
+      },
+      "West bengal": {
+        "total_authentications": 20,
+        "bio_5_17": 5,
+        "bio_17_plus": 15,
+        "avg_bio_5_17_per_pincode": 0.28,
+        "avg_bio_17_plus_per_pincode": 0.83,
+        "unique_pincodes": 4,
+        "unique_districts": 3,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "Westbengal": {
+        "total_authentications": 19,
+        "bio_5_17": 2,
+        "bio_17_plus": 17,
+        "avg_bio_5_17_per_pincode": 0.11,
+        "avg_bio_17_plus_per_pincode": 0.94,
+        "unique_pincodes": 7,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "andhra pradesh": {
+        "total_authentications": 41,
+        "bio_5_17": 19,
+        "bio_17_plus": 22,
+        "avg_bio_5_17_per_pincode": 0.61,
+        "avg_bio_17_plus_per_pincode": 0.71,
+        "unique_pincodes": 2,
+        "unique_districts": 2,
+        "region": "South",
+        "percentage_of_total": 0.0
+      },
+      "odisha": {
+        "total_authentications": 16,
+        "bio_5_17": 0,
+        "bio_17_plus": 16,
+        "avg_bio_5_17_per_pincode": 0.0,
+        "avg_bio_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 3,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "west Bengal": {
+        "total_authentications": 1,
+        "bio_5_17": 1,
+        "bio_17_plus": 0,
+        "avg_bio_5_17_per_pincode": 1.0,
+        "avg_bio_17_plus_per_pincode": 0.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      }
+    },
+    "by_region": {
+      "Central": {
+        "total_authentications": 8572500,
+        "bio_5_17": 4084670,
+        "bio_17_plus": 4487830,
+        "states_count": 2,
+        "districts_count": 100,
+        "pincodes_count": 1066,
+        "percentage_of_total": 12.29
+      },
+      "East": {
+        "total_authentications": 11874087,
+        "bio_5_17": 5335763,
+        "bio_17_plus": 6538324,
+        "states_count": 10,
+        "districts_count": 194,
+        "pincodes_count": 3595,
+        "percentage_of_total": 17.02
+      },
+      "North": {
+        "total_authentications": 20284637,
+        "bio_5_17": 11312135,
+        "bio_17_plus": 8972502,
+        "states_count": 10,
+        "districts_count": 255,
+        "pincodes_count": 4628,
+        "percentage_of_total": 29.08
+      },
+      "Northeast": {
+        "total_authentications": 1947406,
+        "bio_5_17": 1108141,
+        "bio_17_plus": 839265,
+        "states_count": 7,
+        "districts_count": 125,
+        "pincodes_count": 924,
+        "percentage_of_total": 2.79
+      },
+      "South": {
+        "total_authentications": 14461543,
+        "bio_5_17": 7343609,
+        "bio_17_plus": 7117934,
+        "states_count": 9,
+        "districts_count": 199,
+        "pincodes_count": 6768,
+        "percentage_of_total": 20.73
+      },
+      "Unknown": {
+        "total_authentications": 129340,
+        "bio_5_17": 34173,
+        "bio_17_plus": 95167,
+        "states_count": 15,
+        "districts_count": 72,
+        "pincodes_count": 870,
+        "percentage_of_total": 0.19
+      },
+      "West": {
+        "total_authentications": 12493582,
+        "bio_5_17": 5008364,
+        "bio_17_plus": 7485218,
+        "states_count": 4,
+        "districts_count": 98,
+        "pincodes_count": 2727,
+        "percentage_of_total": 17.91
+      }
+    },
+    "age_analysis": {
+      "youth_5_17": {
+        "total": 34226855,
+        "percentage": 49.06,
+        "average_per_record": 18.39,
+        "median_per_record": 3.0,
+        "std_deviation": 83.7
+      },
+      "adults_17_plus": {
+        "total": 35536240,
+        "percentage": 50.94,
+        "average_per_record": 19.09,
+        "median_per_record": 4.0,
+        "std_deviation": 88.07
+      }
+    },
+    "top_performers": {
+      "states": [
+        {
+          "name": "Uttar Pradesh",
+          "total": 9577735,
+          "percentage": 13.73
+        },
+        {
+          "name": "Maharashtra",
+          "total": 9226139,
+          "percentage": 13.22
+        },
+        {
+          "name": "Madhya Pradesh",
+          "total": 5923771,
+          "percentage": 8.49
+        },
+        {
+          "name": "Bihar",
+          "total": 4897587,
+          "percentage": 7.02
+        },
+        {
+          "name": "Tamil Nadu",
+          "total": 4698117,
+          "percentage": 6.73
+        },
+        {
+          "name": "Rajasthan",
+          "total": 3994955,
+          "percentage": 5.73
+        },
+        {
+          "name": "Andhra Pradesh",
+          "total": 3714592,
+          "percentage": 5.32
+        },
+        {
+          "name": "Gujarat",
+          "total": 3196514,
+          "percentage": 4.58
+        },
+        {
+          "name": "Chhattisgarh",
+          "total": 2648729,
+          "percentage": 3.8
+        },
+        {
+          "name": "Karnataka",
+          "total": 2635954,
+          "percentage": 3.78
+        }
+      ]
+    },
+    "needs_attention": {
+      "states": [
+        {
+          "name": "ODISHA",
+          "total": 34,
+          "percentage": 0.0
+        },
+        {
+          "name": "West  Bengal",
+          "total": 28,
+          "percentage": 0.0
+        },
+        {
+          "name": "West bengal",
+          "total": 20,
+          "percentage": 0.0
+        },
+        {
+          "name": "Westbengal",
+          "total": 19,
+          "percentage": 0.0
+        },
+        {
+          "name": "odisha",
+          "total": 16,
+          "percentage": 0.0
+        },
+        {
+          "name": "WESTBENGAL",
+          "total": 12,
+          "percentage": 0.0
+        },
+        {
+          "name": "Chhatisgarh",
+          "total": 5,
+          "percentage": 0.0
+        },
+        {
+          "name": "Uttaranchal",
+          "total": 2,
+          "percentage": 0.0
+        },
+        {
+          "name": "Tamilnadu",
+          "total": 1,
+          "percentage": 0.0
+        },
+        {
+          "name": "west Bengal",
+          "total": 1,
+          "percentage": 0.0
+        }
+      ]
+    },
+    "key_insights": [
+      {
+        "type": "leader",
+        "category": "biometric",
+        "title": "Uttar Pradesh Leads in Biometric Authentication",
+        "description": "Uttar Pradesh records the highest biometric activity with 9,577,735 authentications, representing 13.73% of all biometric transactions.",
+        "severity": "positive",
+        "data": {
+          "state": "Uttar Pradesh",
+          "total": 9577735
+        }
+      },
+      {
+        "type": "demographic",
+        "category": "biometric",
+        "title": "Adult Biometric Usage Significantly Higher",
+        "description": "Adults (17+) account for 50.94% of biometric authentications, 1.0x more than youth (5-17). This reflects higher adult engagement with Aadhaar-linked services.",
+        "severity": "info",
+        "data": {
+          "ratio": 1.04,
+          "adult_pct": 50.94
+        }
+      },
+      {
+        "type": "usage",
+        "category": "biometric",
+        "title": "Average 37.48 Authentications Per Record",
+        "description": "Each pincode-date combination averages 37.48 biometric authentications, indicating consistent usage across the country.",
+        "severity": "info",
+        "data": {
+          "average": 37.48
+        }
+      }
+    ]
+  },
+  "demographics": {
+    "total_records": 2071700,
+    "columns": [
+      "date",
+      "state",
+      "district",
+      "pincode",
+      "demo_age_5_17",
+      "demo_age_17_"
+    ],
+    "summary": {
+      "total_records": 2071700,
+      "unique_states": 65,
+      "unique_districts": 983,
+      "unique_pincodes": 19742,
+      "demo_5_17_total": 4863424,
+      "demo_17_plus_total": 44431763,
+      "grand_total": 49295187,
+      "demo_5_17_percentage": 9.87,
+      "demo_17_plus_percentage": 90.13,
+      "youth_to_adult_ratio": 0.1095
+    },
+    "by_state": {
+      "100000": {
+        "total_population": 2,
+        "demo_5_17": 0,
+        "demo_17_plus": 2,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Andaman & Nicobar Islands": {
+        "total_population": 1059,
+        "demo_5_17": 13,
+        "demo_17_plus": 1046,
+        "youth_percentage": 1.23,
+        "avg_demo_5_17_per_pincode": 0.03,
+        "avg_demo_17_plus_per_pincode": 2.04,
+        "unique_pincodes": 12,
+        "unique_districts": 3,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Andaman and Nicobar Islands": {
+        "total_population": 6187,
+        "demo_5_17": 604,
+        "demo_17_plus": 5583,
+        "youth_percentage": 9.76,
+        "avg_demo_5_17_per_pincode": 0.5,
+        "avg_demo_17_plus_per_pincode": 4.61,
+        "unique_pincodes": 22,
+        "unique_districts": 3,
+        "region": "South",
+        "percentage_of_total": 0.01
+      },
+      "Andhra Pradesh": {
+        "total_population": 2295505,
+        "demo_5_17": 321143,
+        "demo_17_plus": 1974362,
+        "youth_percentage": 13.99,
+        "avg_demo_5_17_per_pincode": 1.55,
+        "avg_demo_17_plus_per_pincode": 9.51,
+        "unique_pincodes": 1846,
+        "unique_districts": 45,
+        "region": "South",
+        "percentage_of_total": 4.66
+      },
+      "Arunachal Pradesh": {
+        "total_population": 36443,
+        "demo_5_17": 5783,
+        "demo_17_plus": 30660,
+        "youth_percentage": 15.87,
+        "avg_demo_5_17_per_pincode": 1.22,
+        "avg_demo_17_plus_per_pincode": 6.49,
+        "unique_pincodes": 53,
+        "unique_districts": 25,
+        "region": "Northeast",
+        "percentage_of_total": 0.07
+      },
+      "Assam": {
+        "total_population": 1012578,
+        "demo_5_17": 84480,
+        "demo_17_plus": 928098,
+        "youth_percentage": 8.34,
+        "avg_demo_5_17_per_pincode": 1.34,
+        "avg_demo_17_plus_per_pincode": 14.77,
+        "unique_pincodes": 574,
+        "unique_districts": 37,
+        "region": "Northeast",
+        "percentage_of_total": 2.05
+      },
+      "BALANAGAR": {
+        "total_population": 2,
+        "demo_5_17": 0,
+        "demo_17_plus": 2,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Bihar": {
+        "total_population": 4814350,
+        "demo_5_17": 380023,
+        "demo_17_plus": 4434327,
+        "youth_percentage": 7.89,
+        "avg_demo_5_17_per_pincode": 3.89,
+        "avg_demo_17_plus_per_pincode": 45.42,
+        "unique_pincodes": 921,
+        "unique_districts": 47,
+        "region": "East",
+        "percentage_of_total": 9.77
+      },
+      "Chandigarh": {
+        "total_population": 83361,
+        "demo_5_17": 13133,
+        "demo_17_plus": 70228,
+        "youth_percentage": 15.75,
+        "avg_demo_5_17_per_pincode": 6.43,
+        "avg_demo_17_plus_per_pincode": 34.36,
+        "unique_pincodes": 26,
+        "unique_districts": 3,
+        "region": "North",
+        "percentage_of_total": 0.17
+      },
+      "Chhatisgarh": {
+        "total_population": 4,
+        "demo_5_17": 0,
+        "demo_17_plus": 4,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Chhattisgarh": {
+        "total_population": 2005434,
+        "demo_5_17": 165207,
+        "demo_17_plus": 1840227,
+        "youth_percentage": 8.24,
+        "avg_demo_5_17_per_pincode": 4.62,
+        "avg_demo_17_plus_per_pincode": 51.51,
+        "unique_pincodes": 268,
+        "unique_districts": 39,
+        "region": "Central",
+        "percentage_of_total": 4.07
+      },
+      "Dadra & Nagar Haveli": {
+        "total_population": 235,
+        "demo_5_17": 32,
+        "demo_17_plus": 203,
+        "youth_percentage": 13.62,
+        "avg_demo_5_17_per_pincode": 0.32,
+        "avg_demo_17_plus_per_pincode": 2.03,
+        "unique_pincodes": 2,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Dadra and Nagar Haveli": {
+        "total_population": 6033,
+        "demo_5_17": 1310,
+        "demo_17_plus": 4723,
+        "youth_percentage": 21.71,
+        "avg_demo_5_17_per_pincode": 4.03,
+        "avg_demo_17_plus_per_pincode": 14.53,
+        "unique_pincodes": 4,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.01
+      },
+      "Dadra and Nagar Haveli and Daman and Diu": {
+        "total_population": 3740,
+        "demo_5_17": 306,
+        "demo_17_plus": 3434,
+        "youth_percentage": 8.18,
+        "avg_demo_5_17_per_pincode": 0.58,
+        "avg_demo_17_plus_per_pincode": 6.55,
+        "unique_pincodes": 10,
+        "unique_districts": 3,
+        "region": "West",
+        "percentage_of_total": 0.01
+      },
+      "Daman & Diu": {
+        "total_population": 644,
+        "demo_5_17": 41,
+        "demo_17_plus": 603,
+        "youth_percentage": 6.37,
+        "avg_demo_5_17_per_pincode": 0.15,
+        "avg_demo_17_plus_per_pincode": 2.26,
+        "unique_pincodes": 5,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Daman and Diu": {
+        "total_population": 1552,
+        "demo_5_17": 234,
+        "demo_17_plus": 1318,
+        "youth_percentage": 15.08,
+        "avg_demo_5_17_per_pincode": 0.57,
+        "avg_demo_17_plus_per_pincode": 3.21,
+        "unique_pincodes": 6,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Darbhanga": {
+        "total_population": 2,
+        "demo_5_17": 0,
+        "demo_17_plus": 2,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Delhi": {
+        "total_population": 1438934,
+        "demo_5_17": 175535,
+        "demo_17_plus": 1263399,
+        "youth_percentage": 12.2,
+        "avg_demo_5_17_per_pincode": 16.7,
+        "avg_demo_17_plus_per_pincode": 120.21,
+        "unique_pincodes": 93,
+        "unique_districts": 13,
+        "region": "North",
+        "percentage_of_total": 2.92
+      },
+      "Goa": {
+        "total_population": 35120,
+        "demo_5_17": 3275,
+        "demo_17_plus": 31845,
+        "youth_percentage": 9.33,
+        "avg_demo_5_17_per_pincode": 0.55,
+        "avg_demo_17_plus_per_pincode": 5.38,
+        "unique_pincodes": 88,
+        "unique_districts": 5,
+        "region": "West",
+        "percentage_of_total": 0.07
+      },
+      "Gujarat": {
+        "total_population": 1824327,
+        "demo_5_17": 208474,
+        "demo_17_plus": 1615853,
+        "youth_percentage": 11.43,
+        "avg_demo_5_17_per_pincode": 2.16,
+        "avg_demo_17_plus_per_pincode": 16.76,
+        "unique_pincodes": 1030,
+        "unique_districts": 39,
+        "region": "West",
+        "percentage_of_total": 3.7
+      },
+      "Haryana": {
+        "total_population": 1166140,
+        "demo_5_17": 139314,
+        "demo_17_plus": 1026826,
+        "youth_percentage": 11.95,
+        "avg_demo_5_17_per_pincode": 4.88,
+        "avg_demo_17_plus_per_pincode": 35.96,
+        "unique_pincodes": 305,
+        "unique_districts": 23,
+        "region": "North",
+        "percentage_of_total": 2.37
+      },
+      "Himachal Pradesh": {
+        "total_population": 149214,
+        "demo_5_17": 19424,
+        "demo_17_plus": 129790,
+        "youth_percentage": 13.02,
+        "avg_demo_5_17_per_pincode": 0.69,
+        "avg_demo_17_plus_per_pincode": 4.63,
+        "unique_pincodes": 449,
+        "unique_districts": 14,
+        "region": "North",
+        "percentage_of_total": 0.3
+      },
+      "Jaipur": {
+        "total_population": 2,
+        "demo_5_17": 0,
+        "demo_17_plus": 2,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Jammu & Kashmir": {
+        "total_population": 426,
+        "demo_5_17": 23,
+        "demo_17_plus": 403,
+        "youth_percentage": 5.4,
+        "avg_demo_5_17_per_pincode": 0.06,
+        "avg_demo_17_plus_per_pincode": 1.1,
+        "unique_pincodes": 87,
+        "unique_districts": 14,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Jammu and Kashmir": {
+        "total_population": 406776,
+        "demo_5_17": 57850,
+        "demo_17_plus": 348926,
+        "youth_percentage": 14.22,
+        "avg_demo_5_17_per_pincode": 2.86,
+        "avg_demo_17_plus_per_pincode": 17.24,
+        "unique_pincodes": 205,
+        "unique_districts": 25,
+        "region": "North",
+        "percentage_of_total": 0.83
+      },
+      "Jharkhand": {
+        "total_population": 1401189,
+        "demo_5_17": 99376,
+        "demo_17_plus": 1301813,
+        "youth_percentage": 7.09,
+        "avg_demo_5_17_per_pincode": 2.51,
+        "avg_demo_17_plus_per_pincode": 32.83,
+        "unique_pincodes": 366,
+        "unique_districts": 33,
+        "region": "East",
+        "percentage_of_total": 2.84
+      },
+      "Karnataka": {
+        "total_population": 1695285,
+        "demo_5_17": 264981,
+        "demo_17_plus": 1430304,
+        "youth_percentage": 15.63,
+        "avg_demo_5_17_per_pincode": 1.72,
+        "avg_demo_17_plus_per_pincode": 9.29,
+        "unique_pincodes": 1355,
+        "unique_districts": 54,
+        "region": "South",
+        "percentage_of_total": 3.44
+      },
+      "Kerala": {
+        "total_population": 744952,
+        "demo_5_17": 61064,
+        "demo_17_plus": 683888,
+        "youth_percentage": 8.2,
+        "avg_demo_5_17_per_pincode": 0.58,
+        "avg_demo_17_plus_per_pincode": 6.48,
+        "unique_pincodes": 1416,
+        "unique_districts": 15,
+        "region": "South",
+        "percentage_of_total": 1.51
+      },
+      "Ladakh": {
+        "total_population": 5735,
+        "demo_5_17": 1375,
+        "demo_17_plus": 4360,
+        "youth_percentage": 23.98,
+        "avg_demo_5_17_per_pincode": 1.59,
+        "avg_demo_17_plus_per_pincode": 5.04,
+        "unique_pincodes": 15,
+        "unique_districts": 2,
+        "region": "North",
+        "percentage_of_total": 0.01
+      },
+      "Lakshadweep": {
+        "total_population": 1176,
+        "demo_5_17": 170,
+        "demo_17_plus": 1006,
+        "youth_percentage": 14.46,
+        "avg_demo_5_17_per_pincode": 0.33,
+        "avg_demo_17_plus_per_pincode": 1.93,
+        "unique_pincodes": 9,
+        "unique_districts": 1,
+        "region": "South",
+        "percentage_of_total": 0.0
+      },
+      "Madanapalle": {
+        "total_population": 2,
+        "demo_5_17": 0,
+        "demo_17_plus": 2,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Madhya Pradesh": {
+        "total_population": 2912938,
+        "demo_5_17": 407098,
+        "demo_17_plus": 2505840,
+        "youth_percentage": 13.98,
+        "avg_demo_5_17_per_pincode": 5.33,
+        "avg_demo_17_plus_per_pincode": 32.81,
+        "unique_pincodes": 796,
+        "unique_districts": 60,
+        "region": "Central",
+        "percentage_of_total": 5.91
+      },
+      "Maharashtra": {
+        "total_population": 5054602,
+        "demo_5_17": 273322,
+        "demo_17_plus": 4781280,
+        "youth_percentage": 5.41,
+        "avg_demo_5_17_per_pincode": 1.68,
+        "avg_demo_17_plus_per_pincode": 29.47,
+        "unique_pincodes": 1609,
+        "unique_districts": 53,
+        "region": "West",
+        "percentage_of_total": 10.25
+      },
+      "Manipur": {
+        "total_population": 301549,
+        "demo_5_17": 41464,
+        "demo_17_plus": 260085,
+        "youth_percentage": 13.75,
+        "avg_demo_5_17_per_pincode": 5.69,
+        "avg_demo_17_plus_per_pincode": 35.68,
+        "unique_pincodes": 54,
+        "unique_districts": 13,
+        "region": "Northeast",
+        "percentage_of_total": 0.61
+      },
+      "Meghalaya": {
+        "total_population": 87378,
+        "demo_5_17": 8426,
+        "demo_17_plus": 78952,
+        "youth_percentage": 9.64,
+        "avg_demo_5_17_per_pincode": 1.57,
+        "avg_demo_17_plus_per_pincode": 14.72,
+        "unique_pincodes": 67,
+        "unique_districts": 13,
+        "region": "Northeast",
+        "percentage_of_total": 0.18
+      },
+      "Mizoram": {
+        "total_population": 41906,
+        "demo_5_17": 5302,
+        "demo_17_plus": 36604,
+        "youth_percentage": 12.65,
+        "avg_demo_5_17_per_pincode": 1.38,
+        "avg_demo_17_plus_per_pincode": 9.53,
+        "unique_pincodes": 50,
+        "unique_districts": 12,
+        "region": "Northeast",
+        "percentage_of_total": 0.09
+      },
+      "Nagaland": {
+        "total_population": 36791,
+        "demo_5_17": 4314,
+        "demo_17_plus": 32477,
+        "youth_percentage": 11.73,
+        "avg_demo_5_17_per_pincode": 1.07,
+        "avg_demo_17_plus_per_pincode": 8.05,
+        "unique_pincodes": 44,
+        "unique_districts": 17,
+        "region": "Northeast",
+        "percentage_of_total": 0.07
+      },
+      "Nagpur": {
+        "total_population": 1,
+        "demo_5_17": 0,
+        "demo_17_plus": 1,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "ODISHA": {
+        "total_population": 50,
+        "demo_5_17": 3,
+        "demo_17_plus": 47,
+        "youth_percentage": 6.0,
+        "avg_demo_5_17_per_pincode": 0.08,
+        "avg_demo_17_plus_per_pincode": 1.24,
+        "unique_pincodes": 2,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "Odisha": {
+        "total_population": 1083237,
+        "demo_5_17": 145643,
+        "demo_17_plus": 937594,
+        "youth_percentage": 13.45,
+        "avg_demo_5_17_per_pincode": 1.58,
+        "avg_demo_17_plus_per_pincode": 10.18,
+        "unique_pincodes": 937,
+        "unique_districts": 46,
+        "region": "East",
+        "percentage_of_total": 2.2
+      },
+      "Orissa": {
+        "total_population": 28758,
+        "demo_5_17": 1853,
+        "demo_17_plus": 26905,
+        "youth_percentage": 6.44,
+        "avg_demo_5_17_per_pincode": 0.13,
+        "avg_demo_17_plus_per_pincode": 1.96,
+        "unique_pincodes": 654,
+        "unique_districts": 36,
+        "region": "Unknown",
+        "percentage_of_total": 0.06
+      },
+      "Pondicherry": {
+        "total_population": 7459,
+        "demo_5_17": 607,
+        "demo_17_plus": 6852,
+        "youth_percentage": 8.14,
+        "avg_demo_5_17_per_pincode": 0.28,
+        "avg_demo_17_plus_per_pincode": 3.14,
+        "unique_pincodes": 35,
+        "unique_districts": 3,
+        "region": "Unknown",
+        "percentage_of_total": 0.02
+      },
+      "Puducherry": {
+        "total_population": 25304,
+        "demo_5_17": 4089,
+        "demo_17_plus": 21215,
+        "youth_percentage": 16.16,
+        "avg_demo_5_17_per_pincode": 1.51,
+        "avg_demo_17_plus_per_pincode": 7.84,
+        "unique_pincodes": 35,
+        "unique_districts": 4,
+        "region": "South",
+        "percentage_of_total": 0.05
+      },
+      "Punjab": {
+        "total_population": 881895,
+        "demo_5_17": 56866,
+        "demo_17_plus": 825029,
+        "youth_percentage": 6.45,
+        "avg_demo_5_17_per_pincode": 1.15,
+        "avg_demo_17_plus_per_pincode": 16.63,
+        "unique_pincodes": 526,
+        "unique_districts": 27,
+        "region": "North",
+        "percentage_of_total": 1.79
+      },
+      "Puttenahalli": {
+        "total_population": 1,
+        "demo_5_17": 0,
+        "demo_17_plus": 1,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Raja Annamalai Puram": {
+        "total_population": 1,
+        "demo_5_17": 0,
+        "demo_17_plus": 1,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "Rajasthan": {
+        "total_population": 2817615,
+        "demo_5_17": 257224,
+        "demo_17_plus": 2560391,
+        "youth_percentage": 9.13,
+        "avg_demo_5_17_per_pincode": 2.87,
+        "avg_demo_17_plus_per_pincode": 28.61,
+        "unique_pincodes": 989,
+        "unique_districts": 46,
+        "region": "North",
+        "percentage_of_total": 5.72
+      },
+      "Sikkim": {
+        "total_population": 20340,
+        "demo_5_17": 1555,
+        "demo_17_plus": 18785,
+        "youth_percentage": 7.65,
+        "avg_demo_5_17_per_pincode": 0.48,
+        "avg_demo_17_plus_per_pincode": 5.84,
+        "unique_pincodes": 22,
+        "unique_districts": 10,
+        "region": "East",
+        "percentage_of_total": 0.04
+      },
+      "Tamil Nadu": {
+        "total_population": 2212228,
+        "demo_5_17": 315638,
+        "demo_17_plus": 1896590,
+        "youth_percentage": 14.27,
+        "avg_demo_5_17_per_pincode": 1.6,
+        "avg_demo_17_plus_per_pincode": 9.63,
+        "unique_pincodes": 2089,
+        "unique_districts": 45,
+        "region": "South",
+        "percentage_of_total": 4.49
+      },
+      "Telangana": {
+        "total_population": 1629908,
+        "demo_5_17": 242259,
+        "demo_17_plus": 1387649,
+        "youth_percentage": 14.86,
+        "avg_demo_5_17_per_pincode": 2.72,
+        "avg_demo_17_plus_per_pincode": 15.58,
+        "unique_pincodes": 658,
+        "unique_districts": 41,
+        "region": "South",
+        "percentage_of_total": 3.31
+      },
+      "Tripura": {
+        "total_population": 138013,
+        "demo_5_17": 11791,
+        "demo_17_plus": 126222,
+        "youth_percentage": 8.54,
+        "avg_demo_5_17_per_pincode": 1.33,
+        "avg_demo_17_plus_per_pincode": 14.27,
+        "unique_pincodes": 86,
+        "unique_districts": 9,
+        "region": "Northeast",
+        "percentage_of_total": 0.28
+      },
+      "Uttar Pradesh": {
+        "total_population": 8542328,
+        "demo_5_17": 790308,
+        "demo_17_plus": 7752020,
+        "youth_percentage": 9.25,
+        "avg_demo_5_17_per_pincode": 4.71,
+        "avg_demo_17_plus_per_pincode": 46.17,
+        "unique_pincodes": 1760,
+        "unique_districts": 90,
+        "region": "North",
+        "percentage_of_total": 17.33
+      },
+      "Uttarakhand": {
+        "total_population": 463637,
+        "demo_5_17": 49926,
+        "demo_17_plus": 413711,
+        "youth_percentage": 10.77,
+        "avg_demo_5_17_per_pincode": 2.16,
+        "avg_demo_17_plus_per_pincode": 17.94,
+        "unique_pincodes": 296,
+        "unique_districts": 15,
+        "region": "North",
+        "percentage_of_total": 0.94
+      },
+      "Uttaranchal": {
+        "total_population": 5,
+        "demo_5_17": 0,
+        "demo_17_plus": 5,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 2,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "WEST BENGAL": {
+        "total_population": 71,
+        "demo_5_17": 2,
+        "demo_17_plus": 69,
+        "youth_percentage": 2.82,
+        "avg_demo_5_17_per_pincode": 0.04,
+        "avg_demo_17_plus_per_pincode": 1.28,
+        "unique_pincodes": 6,
+        "unique_districts": 3,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "WESTBENGAL": {
+        "total_population": 57,
+        "demo_5_17": 0,
+        "demo_17_plus": 57,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.16,
+        "unique_pincodes": 3,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West  Bengal": {
+        "total_population": 107,
+        "demo_5_17": 6,
+        "demo_17_plus": 101,
+        "youth_percentage": 5.61,
+        "avg_demo_5_17_per_pincode": 0.07,
+        "avg_demo_17_plus_per_pincode": 1.25,
+        "unique_pincodes": 6,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West Bangal": {
+        "total_population": 157,
+        "demo_5_17": 4,
+        "demo_17_plus": 153,
+        "youth_percentage": 2.55,
+        "avg_demo_5_17_per_pincode": 0.03,
+        "avg_demo_17_plus_per_pincode": 1.2,
+        "unique_pincodes": 9,
+        "unique_districts": 3,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West Bengal": {
+        "total_population": 3872172,
+        "demo_5_17": 242549,
+        "demo_17_plus": 3629623,
+        "youth_percentage": 6.26,
+        "avg_demo_5_17_per_pincode": 1.44,
+        "avg_demo_17_plus_per_pincode": 21.53,
+        "unique_pincodes": 1364,
+        "unique_districts": 59,
+        "region": "East",
+        "percentage_of_total": 7.86
+      },
+      "West Bengli": {
+        "total_population": 3,
+        "demo_5_17": 0,
+        "demo_17_plus": 3,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.0,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "West bengal": {
+        "total_population": 60,
+        "demo_5_17": 0,
+        "demo_17_plus": 60,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.54,
+        "unique_pincodes": 4,
+        "unique_districts": 3,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "Westbengal": {
+        "total_population": 95,
+        "demo_5_17": 0,
+        "demo_17_plus": 95,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.14,
+        "unique_pincodes": 7,
+        "unique_districts": 2,
+        "region": "Unknown",
+        "percentage_of_total": 0.0
+      },
+      "andhra pradesh": {
+        "total_population": 77,
+        "demo_5_17": 5,
+        "demo_17_plus": 72,
+        "youth_percentage": 6.49,
+        "avg_demo_5_17_per_pincode": 0.09,
+        "avg_demo_17_plus_per_pincode": 1.36,
+        "unique_pincodes": 2,
+        "unique_districts": 2,
+        "region": "South",
+        "percentage_of_total": 0.0
+      },
+      "odisha": {
+        "total_population": 20,
+        "demo_5_17": 0,
+        "demo_17_plus": 20,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.18,
+        "unique_pincodes": 3,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      },
+      "west Bengal": {
+        "total_population": 15,
+        "demo_5_17": 0,
+        "demo_17_plus": 15,
+        "youth_percentage": 0.0,
+        "avg_demo_5_17_per_pincode": 0.0,
+        "avg_demo_17_plus_per_pincode": 1.36,
+        "unique_pincodes": 1,
+        "unique_districts": 1,
+        "region": "East",
+        "percentage_of_total": 0.0
+      }
+    },
+    "by_region": {
+      "Central": {
+        "total_population": 4918372,
+        "demo_5_17": 572305,
+        "demo_17_plus": 4346067,
+        "youth_percentage": 11.64,
+        "states_count": 2,
+        "districts_count": 99,
+        "pincodes_count": 1064,
+        "percentage_of_total": 9.98
+      },
+      "East": {
+        "total_population": 11191504,
+        "demo_5_17": 869151,
+        "demo_17_plus": 10322353,
+        "youth_percentage": 7.77,
+        "states_count": 10,
+        "districts_count": 195,
+        "pincodes_count": 3608,
+        "percentage_of_total": 22.7
+      },
+      "North": {
+        "total_population": 15955635,
+        "demo_5_17": 1560955,
+        "demo_17_plus": 14394680,
+        "youth_percentage": 9.78,
+        "states_count": 10,
+        "districts_count": 253,
+        "pincodes_count": 4637,
+        "percentage_of_total": 32.37
+      },
+      "Northeast": {
+        "total_population": 1654658,
+        "demo_5_17": 161560,
+        "demo_17_plus": 1493098,
+        "youth_percentage": 9.76,
+        "states_count": 7,
+        "districts_count": 126,
+        "pincodes_count": 924,
+        "percentage_of_total": 3.36
+      },
+      "South": {
+        "total_population": 8610622,
+        "demo_5_17": 1209953,
+        "demo_17_plus": 7400669,
+        "youth_percentage": 14.05,
+        "states_count": 9,
+        "districts_count": 200,
+        "pincodes_count": 6775,
+        "percentage_of_total": 17.47
+      },
+      "Unknown": {
+        "total_population": 46607,
+        "demo_5_17": 4123,
+        "demo_17_plus": 42484,
+        "youth_percentage": 8.85,
+        "states_count": 23,
+        "districts_count": 75,
+        "pincodes_count": 831,
+        "percentage_of_total": 0.09
+      },
+      "West": {
+        "total_population": 6917789,
+        "demo_5_17": 485377,
+        "demo_17_plus": 6432412,
+        "youth_percentage": 7.02,
+        "states_count": 4,
+        "districts_count": 100,
+        "pincodes_count": 2732,
+        "percentage_of_total": 14.03
+      }
+    },
+    "age_analysis": {
+      "youth_5_17": {
+        "total": 4863424,
+        "percentage": 9.87,
+        "average_per_record": 2.35,
+        "median_per_record": 1.0,
+        "std_deviation": 14.9,
+        "max_value": 2690,
+        "min_value": 0
+      },
+      "adults_17_plus": {
+        "total": 44431763,
+        "percentage": 90.13,
+        "average_per_record": 21.45,
+        "median_per_record": 6.0,
+        "std_deviation": 125.25,
+        "max_value": 16166,
+        "min_value": 0
+      }
+    },
+    "top_performers": {
+      "states": [
+        {
+          "name": "Uttar Pradesh",
+          "total": 8542328,
+          "percentage": 17.33
+        },
+        {
+          "name": "Maharashtra",
+          "total": 5054602,
+          "percentage": 10.25
+        },
+        {
+          "name": "Bihar",
+          "total": 4814350,
+          "percentage": 9.77
+        },
+        {
+          "name": "West Bengal",
+          "total": 3872172,
+          "percentage": 7.86
+        },
+        {
+          "name": "Madhya Pradesh",
+          "total": 2912938,
+          "percentage": 5.91
+        },
+        {
+          "name": "Rajasthan",
+          "total": 2817615,
+          "percentage": 5.72
+        },
+        {
+          "name": "Andhra Pradesh",
+          "total": 2295505,
+          "percentage": 4.66
+        },
+        {
+          "name": "Tamil Nadu",
+          "total": 2212228,
+          "percentage": 4.49
+        },
+        {
+          "name": "Chhattisgarh",
+          "total": 2005434,
+          "percentage": 4.07
+        },
+        {
+          "name": "Gujarat",
+          "total": 1824327,
+          "percentage": 3.7
+        }
+      ],
+      "youngest_states": [
+        {
+          "name": "Ladakh",
+          "youth_percentage": 23.98,
+          "total": 5735
+        },
+        {
+          "name": "Dadra and Nagar Haveli",
+          "youth_percentage": 21.71,
+          "total": 6033
+        },
+        {
+          "name": "Puducherry",
+          "youth_percentage": 16.16,
+          "total": 25304
+        },
+        {
+          "name": "Arunachal Pradesh",
+          "youth_percentage": 15.87,
+          "total": 36443
+        },
+        {
+          "name": "Chandigarh",
+          "youth_percentage": 15.75,
+          "total": 83361
+        },
+        {
+          "name": "Karnataka",
+          "youth_percentage": 15.63,
+          "total": 1695285
+        },
+        {
+          "name": "Daman and Diu",
+          "youth_percentage": 15.08,
+          "total": 1552
+        },
+        {
+          "name": "Telangana",
+          "youth_percentage": 14.86,
+          "total": 1629908
+        },
+        {
+          "name": "Lakshadweep",
+          "youth_percentage": 14.46,
+          "total": 1176
+        },
+        {
+          "name": "Tamil Nadu",
+          "youth_percentage": 14.27,
+          "total": 2212228
+        }
+      ]
+    },
+    "needs_attention": {},
+    "geographic_distribution": {
+      "pincodes_per_state": {
+        "Tamil Nadu": 2089,
+        "Andhra Pradesh": 1846,
+        "Uttar Pradesh": 1760,
+        "Maharashtra": 1609,
+        "Kerala": 1416,
+        "West Bengal": 1364,
+        "Karnataka": 1355,
+        "Gujarat": 1030,
+        "Rajasthan": 989,
+        "Odisha": 937,
+        "Bihar": 921,
+        "Madhya Pradesh": 796,
+        "Telangana": 658,
+        "Orissa": 654,
+        "Assam": 574
+      },
+      "avg_pincodes_per_state": 327.58,
+      "max_pincodes_state": "Tamil Nadu",
+      "min_pincodes_state": "West Bengli"
+    },
+    "key_insights": [
+      {
+        "type": "population",
+        "category": "demographics",
+        "title": "Uttar Pradesh Has Largest Demographic Footprint",
+        "description": "Uttar Pradesh accounts for 17.33% of demographic data with 8,542,328 records across 90 districts.",
+        "severity": "info",
+        "data": {
+          "state": "Uttar Pradesh",
+          "total": 8542328
+        }
+      },
+      {
+        "type": "youth",
+        "category": "demographics",
+        "title": "Ladakh Has Highest Youth Proportion",
+        "description": "Ladakh shows 23.98% youth (5-17) population, the highest among all states, indicating a young demographic profile.",
+        "severity": "positive",
+        "data": {
+          "state": "Ladakh",
+          "youth_pct": 23.98
+        }
+      },
+      {
+        "type": "regional",
+        "category": "demographics",
+        "title": "North Region Most Populous",
+        "description": "The North region contains 32.37% of demographic data spanning 10 states and 4,637 pincodes.",
+        "severity": "info",
+        "data": {
+          "region": "North",
+          "percentage": 32.37
+        }
+      },
+      {
+        "type": "coverage",
+        "category": "demographics",
+        "title": "19,742 Pincodes Covered",
+        "description": "Demographic data spans 19,742 unique pincodes across 65 states, demonstrating comprehensive geographic coverage.",
+        "severity": "positive",
+        "data": {
+          "pincodes": 19742,
+          "states": 65
+        }
+      }
+    ]
+  },
+  "cross_dataset_insights": [
+    {
+      "type": "coverage",
+      "title": "Comprehensive State Coverage",
+      "description": "52 states have complete data across all three datasets (enrollment, biometric, demographics). Total unique states covered: 68.",
+      "severity": "positive",
+      "data": {
+        "total_states": 68,
+        "common_states": 52,
+        "enrollment_only": [
+          "The Dadra And Nagar Haveli And Daman And Diu",
+          "Jammu And Kashmir",
+          "100000"
+        ],
+        "biometric_only": [
+          "west Bengal",
+          "odisha",
+          "Uttaranchal",
+          "Chhatisgarh",
+          "Tamilnadu"
+        ],
+        "demographics_only": [
+          "west Bengal",
+          "West Bengli",
+          "Chhatisgarh",
+          "BALANAGAR",
+          "100000"
+        ]
+      }
+    },
+    {
+      "type": "regional_leader",
+      "title": "North Region Most Active Overall",
+      "description": "The North region shows the highest combined activity across enrollment, biometric, and demographic data with an average of 31.2% share across datasets.",
+      "severity": "positive",
+      "data": {
+        "region": "North",
+        "average_percentage": 31.18
+      }
+    },
+    {
+      "type": "regional_attention",
+      "title": "Northeast Region Needs Focus",
+      "description": "The Northeast region has the lowest combined activity with only 4.4% average share. Infrastructure investment and enrollment drives may help improve coverage.",
+      "severity": "warning",
+      "data": {
+        "region": "Northeast",
+        "average_percentage": 4.45
+      }
+    },
+    {
+      "type": "consistent_performance",
+      "title": "Consistently High-Performing States",
+      "description": "Uttar Pradesh, Bihar, Madhya Pradesh appear in the top 5 across all datasets, indicating strong and consistent Aadhaar infrastructure adoption.",
+      "severity": "positive",
+      "data": {
+        "states": [
+          "Uttar Pradesh",
+          "Bihar",
+          "Madhya Pradesh",
+          "Maharashtra"
+        ]
+      }
+    },
+    {
+      "type": "data_volume",
+      "title": "Massive Data Scale Analyzed",
+      "description": "Analysis covers 124,493,984 total data points: 5,435,702 enrollment, 69,763,095 biometric, and 49,295,187 demographic records.",
+      "severity": "info",
+      "data": {
+        "enrollment_total": 5435702,
+        "biometric_total": 69763095,
+        "demographics_total": 49295187
+      }
+    }
+  ],
+  "metadata": {
+    "enrollment_records": 1006029,
+    "biometric_records": 1861108,
+    "demographics_records": 2071700,
+    "total_records": 4938837
+  }
+}
