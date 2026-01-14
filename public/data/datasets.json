@@ -1,0 +1,123 @@
+{
+  "categories": [
+    {
+      "id": "biometric",
+      "label": "Biometric Data",
+      "metrics": {
+        "bio_age_5_17": {
+          "label": "Biometric (Age 5–17)",
+          "color": ["#2dd4bf", "#0f766e"],
+          "heatRadius": 25
+        },
+        "bio_age_17_": {
+          "label": "Biometric (Age 17+)",
+          "color": ["#fb7185", "#9f1239"],
+          "heatRadius": 35
+        }
+      },
+      "files": [
+        {
+          "id": "bio_0_500k",
+          "label": "0-500K",
+          "path": "/data/biometric/api_data_aadhar_biometric_0_500000.csv"
+        },
+        {
+          "id": "bio_500k_1m",
+          "label": "500K-1M",
+          "path": "/data/biometric/api_data_aadhar_biometric_500000_1000000.csv"
+        },
+        {
+          "id": "bio_1m_1_5m",
+          "label": "1M-1.5M",
+          "path": "/data/biometric/api_data_aadhar_biometric_1000000_1500000.csv"
+        },
+        {
+          "id": "bio_1_5m_end",
+          "label": "1.5M-1.86M",
+          "path": "/data/biometric/api_data_aadhar_biometric_1500000_1861108.csv"
+        }
+      ]
+    },
+    {
+      "id": "demographics",
+      "label": "Demographics",
+      "metrics": {
+        "demo_age_5_17": {
+          "label": "Demographics (Age 5–17)",
+          "color": ["#60a5fa", "#1d4ed8"],
+          "heatRadius": 28
+        },
+        "demo_age_17_": {
+          "label": "Demographics (Age 17+)",
+          "color": ["#a78bfa", "#5b21b6"],
+          "heatRadius": 32
+        }
+      },
+      "files": [
+        {
+          "id": "demo_0_500k",
+          "label": "0-500K",
+          "path": "/data/demographics/api_data_aadhar_demographic_0_500000.csv"
+        },
+        {
+          "id": "demo_500k_1m",
+          "label": "500K-1M",
+          "path": "/data/demographics/api_data_aadhar_demographic_500000_1000000.csv"
+        },
+        {
+          "id": "demo_1m_1_5m",
+          "label": "1M-1.5M",
+          "path": "/data/demographics/api_data_aadhar_demographic_1000000_1500000.csv"
+        },
+        {
+          "id": "demo_1_5m_2m",
+          "label": "1.5M-2M",
+          "path": "/data/demographics/api_data_aadhar_demographic_1500000_2000000.csv"
+        },
+        {
+          "id": "demo_2m_end",
+          "label": "2M-2.07M",
+          "path": "/data/demographics/api_data_aadhar_demographic_2000000_2071700.csv"
+        }
+      ]
+    },
+    {
+      "id": "enrollment",
+      "label": "Aadhaar Enrollment",
+      "metrics": {
+        "age_0_5": {
+          "label": "Enrollment (Age 0–5)",
+          "color": ["#fbbf24", "#b45309"],
+          "heatRadius": 25
+        },
+        "age_5_17": {
+          "label": "Enrollment (Age 5–17)",
+          "color": ["#34d399", "#047857"],
+          "heatRadius": 28
+        },
+        "age_18_greater": {
+          "label": "Enrollment (Age 18+)",
+          "color": ["#f472b6", "#be185d"],
+          "heatRadius": 32
+        }
+      },
+      "files": [
+        {
+          "id": "enroll_0_500k",
+          "label": "0-500K",
+          "path": "/data/enrollment/api_data_aadhar_enrolment_0_500000.csv"
+        },
+        {
+          "id": "enroll_500k_1m",
+          "label": "500K-1M",
+          "path": "/data/enrollment/api_data_aadhar_enrolment_500000_1000000.csv"
+        },
+        {
+          "id": "enroll_1m_end",
+          "label": "1M-1.006M",
+          "path": "/data/enrollment/api_data_aadhar_enrolment_1000000_1006029.csv"
+        }
+      ]
+    }
+  ]
+}
