@@ -1,28 +1,20 @@
-import { DataProvider } from './context/DataContext';
-import MapView from './map/MapView';
-import MetricSelector from './ui/MetricSelector';
-import { DatasetSelector } from './ui/DatasetSelector';
-import Legend from './ui/Legend';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import MapPage from './pages/MapPage';
+import InsightsPage from './pages/InsightsPage';
+import DataViewPage from './pages/DataViewPage';
 import './index.css';
 
 function App() {
   return (
-    <DataProvider>
-      <div className="app">
-        <header className="app-header">
-          <h1>LokDristi</h1>
-          <div className="header-controls">
-            <DatasetSelector />
-            <MetricSelector />
-          </div>
-        </header>
-        
-        <main className="app-main">
-          <MapView />
-          <Legend />
-        </main>
-      </div>
-    </DataProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/map" element={<MapPage />} />
+        <Route path="/insights" element={<InsightsPage />} />
+        <Route path="/data/:categoryId" element={<DataViewPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
